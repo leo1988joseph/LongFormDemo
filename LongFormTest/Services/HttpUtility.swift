@@ -21,7 +21,7 @@ struct HttpUtility
                     _=completionHandler(result as T)
                 }
                 catch let error{
-                    debugPrint("error occured while decoding = \(error.localizedDescription)")
+                    debugPrint("error occured while decoding is = \(error.localizedDescription)")
                     _=errorHandler(error.localizedDescription)
                 }
             }
