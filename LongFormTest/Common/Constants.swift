@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constants {
-    static let SomeErrorOccured = "Some error occured"
+    static let SomeErrorOccured = "Some error occured in response"
     static let EmptyText = "Text is empty"
     static let NumberText = "Text contains number"
     static let EmptyResult = "There are no results"
